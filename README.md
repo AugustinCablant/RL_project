@@ -16,11 +16,12 @@ The repository is organized as follows to facilitate your development process:
     ├── evaluate.py # Contains the evaluation function to assess your agent's performance. (DO NOT MODIFY [**])
     ├── interface.py # Provides the agent interface, outlining the methods your agent must implement. (DO NOT MODIFY [**])
     ├── train.py # Training script. (YOUR CODE GOES HERE)
-    └── main.py # Serves as the entry point for automatically evaluating your agent. (DO NOT MODIFY [**])
-└── models
     ├── DQN_agent.py # My DQN agent
     ├── DQNNetwork 
     └── RF_FQI.py # Random Forest Q value iteration agent
+    └── main.py # Serves as the entry point for automatically evaluating your agent. (DO NOT MODIFY [**])
+└── models
+    
 
   
 ```
