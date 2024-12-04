@@ -64,3 +64,4 @@ class ProjectAgent:
             self.model = self.model(state_dim, self.nb_neurons, self.nb_actions).to(device)
             self.model.load_state_dict(torch.load("src/models/DQN/config1.pt", map_location = device))
             self.model.eval()
+
