@@ -3,7 +3,7 @@
 
 ### Overview
 
-Welcome to the Reinforcement Learning Class Assignment project repository! This project is designed to provide you with hands-on experience in developing reinforcement learning (RL) agents. You will engage with essential components of an RL system, implementing policies to solve RL environments. This repository serves as your starting point, containing the foundational structure and files necessary for the assignment. 
+Welcome to my Reinforcement Learning Assignment project repository! 
   
 ### Repository Structure
 
@@ -30,7 +30,7 @@ The repository is organized as follows to facilitate your development process:
 
 ### Assignment Task
 
-Your primary task is to create and integrate a training script named `train.py` within this framework. This script should encompass the training logic for your agent, adhering to the specifications outlined in the `interface.py` file. Specifically, you are expected to:
+The task is to create and integrate a training script named `train.py` within this framework. This script should encompass the training logic for your agent, adhering to the specifications outlined in the `interface.py` file. Specifically, you are expected to:
 
 - Develop an `Agent` class that conforms to the protocol defined in `interface.py`. This class should encapsulate the functionality for your agent, including the ability to:
   - Decide on actions based on observations from the environment.
@@ -38,10 +38,6 @@ Your primary task is to create and integrate a training script named `train.py` 
   - Load a previously saved model for further inference or evaluation.
 
 You should run your training locally (on your laptop, using colab, etc. as you prefer), then save your model and push both your code and your saved model to your GitHub Classroom repo.
-
-### Evaluation process
-
-When you push to your GitHub Classroom repo, GitHub Classroom will automatically trigger a series of actions, one of which involves running the `main.py` script. The `main.py` script acts as the entry point for evaluating your RL agent. It is designed to instantiate your agent, interact with the environment, and report the agent's scores which participate in the final grade.
 
 ### The problem to solve
 
