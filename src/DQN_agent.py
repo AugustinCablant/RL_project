@@ -128,7 +128,7 @@ class DQN_AGENT():
             else:
                 state = next_state
         self.model.load_state_dict(self.best_model.state_dict())
-        self.save("src/models/DQN/config1.pt")
+        self.save("/Users/augustincablant/Documents/GitHub/RL_project/src/config1_DQN.pt")
         return episode_return
     
     def greedy_action(self, state):
